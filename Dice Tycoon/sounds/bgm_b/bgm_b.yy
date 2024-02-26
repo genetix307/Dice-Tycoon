@@ -11,8 +11,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_bgm",
+    "path": "audiogroups/audio_bgm",
   },
   "soundFile": "bgm_b.mp3",
   "duration": 215.51021,

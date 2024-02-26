@@ -1,6 +1,6 @@
 depth=-10000
 save_game()
-set_bg()
+if room=rm_maingame {set_bg()}
 
 game_paused=0
 game_over=0

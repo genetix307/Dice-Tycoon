@@ -29,8 +29,12 @@ store.max_gamespeed=ini_read_real( "save1", "max_gamespeed",store.max_gamespeed)
 store.score=ini_read_real( "save1", "score",store.score);
 
 //Statistics
-//store.total_upgrades=ini_read_real( "save1", "total_upgrades",store.total_upgrades);
-store.challenges_completed=ini_read_real( "save1", "challenges_completed",store.challenges_completed);
+store.highest_earnings=ini_read_real( "save1", "highest_earnings",store.highest_earnings);
+store.total_rolls=ini_read_real( "save1", "total_rolls",store.total_rolls);
+store.doubles_rolled=ini_read_real( "save1", "doubles_rolled",store.doubles_rolled);
+store.critical_rolls=ini_read_real( "save1", "critical_rolls",store.critical_rolls);
+store.total_upgrades=ini_read_real( "save1", "total_upgrades",store.total_upgrades);
+//store.challenges_completed=ini_read_real( "save1", "challenges_completed",store.challenges_completed);
 //Bonus Codes
 store.code_payday=ini_read_real( "save1", "code_payday",store.code_payday);
 store.code_kickstart=ini_read_real( "save1", "code_kickstart",store.code_kickstart);

@@ -62,11 +62,19 @@ store.lvl_critical_chance=1
 store.critical_multiplier=2
 store.cost_critical_multiplier=10
 store.lvl_critical_multiplier=1
+store.bonus_dots=0
 
+//Collection
+collection_motorcycle=0
+collection_jetski=0
 
 //Statistics
-//store.total_upgrades=0
-store.challenges_completed=0
+store.total_upgrades=0
+store.highest_earnings=0
+store.total_rolls=0
+store.doubles_rolled=0
+store.critical_rolls=0
+//store.challenges_completed=0
 
 //Bonus Codes
 store.code_payday=0

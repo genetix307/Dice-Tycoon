@@ -1,5 +1,6 @@
 if hud.rolling=0 and hud.can_roll=0 and wait<=0 and hud.game_paused=0 and device_mouse_y(0)<900
 {
+store.total_rolls+=1
 with dice {
 active=1
 sprite_index=spr_dice_roll

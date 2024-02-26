@@ -22,6 +22,7 @@ draw_text_shadow_color(2,730,"Double 5s Multiplier x"+calc_number(store.double5s
 draw_text_shadow_color(2,745,"Double 6s Multiplier x"+calc_number(store.double6s_multiplier),c_white,c_white,c_silver,c_silver)
 draw_text_shadow_color(2,760,"Critical Multiplier x"+calc_number(store.critical_multiplier),c_white,c_white,c_silver,c_silver)
 draw_text_shadow_color(2,775,"Critical Chance "+calc_number(store.critical_chance)+"%",c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,790,"Bonus Dots per Roll "+calc_number(store.bonus_dots),c_white,c_white,c_silver,c_silver)
 }
 
 //Draw Menu Bars

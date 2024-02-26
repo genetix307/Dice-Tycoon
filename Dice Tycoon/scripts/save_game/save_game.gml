@@ -24,8 +24,12 @@ ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
 ini_write_real( "save1", "score", store.score);
 
 //Statistics
-//ini_write_real( "save1", "total_upgrades", store.total_upgrades);
-ini_write_real( "save1", "challenges_completed", store.challenges_completed);
+ini_write_real( "save1", "total_upgrades", store.total_upgrades);
+ini_write_real( "save1", "total_rolls", store.total_rolls);
+ini_write_real( "save1", "doubles_rolled", store.doubles_rolled);
+ini_write_real( "save1", "critical_rolls", store.critical_rolls);
+ini_write_real( "save1", "highest_earnings", store.highest_earnings);
+//ini_write_real( "save1", "challenges_completed", store.challenges_completed);
 //Bonus Codes
 ini_write_real( "save1", "code_payday", store.code_payday);
 ini_write_real( "save1", "code_kickstart", store.code_kickstart);
