@@ -24,37 +24,6 @@ function reset_run(){
 //store.luck=store.perm_luck
 //store.fury=0
 
-//In game Status Effects
-store.active_template=0
-//InGame Upgrades
-/*
-store.cost_attack_damage=5
-store.lvl_attack_damage=1
-store.cost_attack_speed=5
-store.lvl_attack_speed=1
-store.cost_max_health=5
-store.lvl_max_health=1
-store.cost_defense=5
-store.lvl_defense=1
-store.cost_critical_chance=5
-store.lvl_critical_chance=1
-store.cost_critical_multiplier=5
-store.lvl_critical_multiplier=1
-store.cost_regen=5
-store.lvl_regen=1
-store.cost_dodge=5
-store.lvl_dodge=1
-store.cost_lifesteal_chance=5
-store.lvl_lifesteal_chance=1
-store.cost_lifesteal_amount=5
-store.lvl_lifesteal_amount=1
-store.cost_killgold=5
-store.lvl_killgold=1
-store.cost_luck=5
-store.lvl_luck=1
-*/
-//Ingame Perks
-store.perk_lvl_template=0
 
 //Misc
 //store.current_tab=0

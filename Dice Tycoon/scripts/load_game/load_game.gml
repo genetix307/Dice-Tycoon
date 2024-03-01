@@ -28,6 +28,14 @@ store.gems=ini_read_real( "save1", "gems",store.gems);
 store.max_gamespeed=ini_read_real( "save1", "max_gamespeed",store.max_gamespeed);
 store.score=ini_read_real( "save1", "score",store.score);
 
+//Collection
+store.collection_motorcycle=ini_read_real( "save1", "collection_motorcycle",store.collection_motorcycle);
+store.collection_jetski=ini_read_real( "save1", "collection_jetski",store.collection_jetski);
+store.collection_rarecard=ini_read_real( "save1", "collection_rarecard",store.collection_rarecard);
+store.collection_2ndhome=ini_read_real( "save1", "collection_2ndhome",store.collection_2ndhome);
+store.collection_privatejet=ini_read_real( "save1", "collection_privatejet",store.collection_privatejet);
+
+
 //Statistics
 store.highest_earnings=ini_read_real( "save1", "highest_earnings",store.highest_earnings);
 store.total_rolls=ini_read_real( "save1", "total_rolls",store.total_rolls);

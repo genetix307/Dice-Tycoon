@@ -23,6 +23,13 @@ ini_write_real( "save1", "lvl_template", store.lvl_template);
 ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
 ini_write_real( "save1", "score", store.score);
 
+//Collection
+ini_write_real( "save1", "collection_motorcycle", store.collection_motorcycle);
+ini_write_real( "save1", "collection_jetski", store.collection_jetski);
+ini_write_real( "save1", "collection_rarecard", store.collection_rarecard);
+ini_write_real( "save1", "collection_2ndhome", store.collection_2ndhome);
+ini_write_real( "save1", "collection_privatejet", store.collection_privatejet);
+
 //Statistics
 ini_write_real( "save1", "total_upgrades", store.total_upgrades);
 ini_write_real( "save1", "total_rolls", store.total_rolls);

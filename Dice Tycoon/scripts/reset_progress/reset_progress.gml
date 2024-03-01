@@ -67,6 +67,10 @@ store.bonus_dots=0
 //Collection
 collection_motorcycle=0
 collection_jetski=0
+collection_rarecard=0
+collection_2ndhome=0
+collection_privatejet=0
+
 
 //Statistics
 store.total_upgrades=0
