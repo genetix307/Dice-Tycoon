@@ -9,25 +9,42 @@ draw_set_alpha(1)
 draw_set_font(font_score)
 draw_text_shadow_color(4,2,"$"+calc_number(store.score),c_yellow,c_yellow,c_orange,c_orange)
 
-//Draw Stats
+//Draw  Stats 
+/*
 if room=rm_maingame {
 draw_set_font(font_stats)
-draw_text_shadow_color(2,640,"Total Multiplier x"+calc_number(store.total_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,655,"Doubles Multiplier x"+calc_number(store.doubles_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,670,"Double 1s Multiplier x"+calc_number(store.double1s_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,685,"Double 2s Multiplier x"+calc_number(store.double2s_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,700,"Double 3s Multiplier x"+calc_number(store.double3s_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,715,"Double 4s Multiplier x"+calc_number(store.double4s_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,730,"Double 5s Multiplier x"+calc_number(store.double5s_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,745,"Double 6s Multiplier x"+calc_number(store.double6s_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,760,"Critical Multiplier x"+calc_number(store.critical_multiplier),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,775,"Critical Chance "+calc_number(store.critical_chance)+"%",c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(2,790,"Bonus Dots per Roll "+calc_number(store.bonus_dots),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,693,"Bonuses",c_white,c_white,c_silver,c_silver)
+draw_line_color(2,708,106,708,c_white,c_silver)
+draw_text_shadow_color(2,710,"Total Multiplier x"+calc_number(store.total_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,725,"Doubles Multiplier x"+calc_number(store.doubles_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,740,"Double 1s Multiplier x"+calc_number(store.double1s_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,755,"Double 2s Multiplier x"+calc_number(store.double2s_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,770,"Double 3s Multiplier x"+calc_number(store.double3s_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,785,"Double 4s Multiplier x"+calc_number(store.double4s_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,800,"Double 5s Multiplier x"+calc_number(store.double5s_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,815,"Double 6s Multiplier x"+calc_number(store.double6s_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,830,"Critical Multiplier x"+calc_number(store.critical_multiplier),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,845,"Critical Chance "+calc_number(store.critical_chance)+"%",c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(2,860,"Bonus Dots per Roll "+calc_number(store.bonus_dots),c_white,c_white,c_silver,c_silver)
+} */
+
+//Draw Roll Results
+if room=rm_maingame and show_result[0]!="" {
+draw_set_font(font_stats)
+draw_text_shadow_color(192,493,"Roll Results",c_white,c_white,c_silver,c_silver)
+draw_line_color(185,508,270,508,c_white,c_silver)
+draw_text_shadow_color(150,512,show_result[0],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,532,show_result[1],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,552,show_result[2],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,572,show_result[3],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,592,show_result[4],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,592,show_result[5],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,592,show_result[6],c_white,c_white,c_silver,c_silver)
 }
 
 //Draw Menu Bars
 draw_set_alpha(.95)
-draw_rectangle_color(0,900,room_width,960,c_dkgray,c_gray,c_dkgray,c_dkgray,false)
+draw_rectangle_color(0,900,room_width,960,c_dkgray,c_dkgray,c_dkgray,c_dkgray,false)
 draw_set_alpha(1)
 
 //Draw Fade

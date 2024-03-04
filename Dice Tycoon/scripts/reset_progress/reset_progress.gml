@@ -65,12 +65,15 @@ store.lvl_critical_multiplier=1
 store.bonus_dots=0
 
 //Collection
-collection_motorcycle=0
-collection_jetski=0
-collection_rarecard=0
-collection_2ndhome=0
-collection_privatejet=0
-
+store.collection_motorcycle=0
+store.collection_jetski=0
+store.collection_rarecard=0
+store.collection_2ndhome=0
+store.collection_giftshop=0
+store.collection_privatejet=0
+store.collection_yaht=0
+store.collection_starship=0
+store.collection_lamp=0
 
 //Statistics
 store.total_upgrades=0

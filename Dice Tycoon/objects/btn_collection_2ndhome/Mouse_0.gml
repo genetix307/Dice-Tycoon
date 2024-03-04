@@ -1,4 +1,4 @@
-if store.score>=cost and store.collection_rarecard=0
+if store.score>=cost and store.collection_2ndhome=0
 {
 store.score -= cost
 store.collection_2ndhome=1
