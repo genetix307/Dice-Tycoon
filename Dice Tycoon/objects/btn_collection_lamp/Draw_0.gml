@@ -6,6 +6,6 @@ draw_set_color(c_white)
 draw_text(x-155,y-28,myName)
 draw_text(x-155,y-10,"+"+string(bonus_dots)+" Dots per Roll")
 if store.collection_lamp=0 {draw_text(x-155,y+8,"$"+calc_number(cost))}
-if store.collection_lamp=1 {draw_text(x-155,y+8,"Asset Owned")}
-draw_sprite(spr_collection_magiclamp,0,x+230,y)
+if store.collection_lamp=1 {draw_text(x-155,y+8,"Asset Owned") draw_sprite(spr_collection_magiclamp,0,x+230,y)}
+
 	

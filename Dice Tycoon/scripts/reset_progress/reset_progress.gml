@@ -30,6 +30,7 @@ store.lvl_template=1
 
 //In Game
 store.score=0
+store.prestige=1
 
 //Perm Upgrades & Stats
 store.total_multiplier=1
@@ -74,6 +75,7 @@ store.collection_privatejet=0
 store.collection_yaht=0
 store.collection_starship=0
 store.collection_lamp=0
+store.collection_media=0
 
 //Statistics
 store.total_upgrades=0

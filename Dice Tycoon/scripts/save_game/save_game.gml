@@ -22,6 +22,7 @@ ini_write_real( "save1", "lvl_template", store.lvl_template);
 //Perm 
 ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
 ini_write_real( "save1", "score", store.score);
+ini_write_real( "save1", "prestige", store.prestige);
 //Perm Upgrades & Stats
 ini_write_real( "save1", "total_multiplier", store.total_multiplier);
 ini_write_real( "save1", "cost_totalmultiplier", store.cost_totalmultiplier);
@@ -65,6 +66,7 @@ ini_write_real( "save1", "collection_privatejet", store.collection_privatejet);
 ini_write_real( "save1", "collection_yaht", store.collection_yaht);
 ini_write_real( "save1", "collection_starship", store.collection_starship);
 ini_write_real( "save1", "collection_lamp", store.collection_lamp);
+ini_write_real( "save1", "collection_media", store.collection_media);
 
 //Statistics
 ini_write_real( "save1", "total_upgrades", store.total_upgrades);

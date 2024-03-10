@@ -27,6 +27,7 @@ store.lvl_template=ini_read_real( "save1", "lvl_template",store.lvl_template);
 store.gems=ini_read_real( "save1", "gems",store.gems);
 store.max_gamespeed=ini_read_real( "save1", "max_gamespeed",store.max_gamespeed);
 store.score=ini_read_real( "save1", "score",store.score);
+store.prestige=ini_read_real( "save1", "prestige",store.prestige);
 //Perm Upgrades & Stats
 store.total_multiplier=ini_read_real( "save1", "total_multiplier",store.total_multiplier);
 store.cost_totalmultiplier=ini_read_real( "save1", "cost_totalmultiplier",store.cost_totalmultiplier);
@@ -70,6 +71,7 @@ store.collection_privatejet=ini_read_real( "save1", "collection_privatejet",stor
 store.collection_yaht=ini_read_real( "save1", "collection_yaht",store.collection_yaht);
 store.collection_starship=ini_read_real( "save1", "collection_starship",store.collection_starship);
 store.collection_lamp=ini_read_real( "save1", "collection_lamp",store.collection_lamp);
+store.collection_media=ini_read_real( "save1", "collection_media",store.collection_media);
 
 
 //Statistics

@@ -8,6 +8,8 @@ draw_rectangle_color(0,4,room_width,36,c_dkgray,c_dkgray,c_black,c_black,false)
 draw_set_alpha(1)
 draw_set_font(font_score)
 draw_text_shadow_color(4,2,"$"+calc_number(store.score),c_yellow,c_yellow,c_orange,c_orange)
+draw_set_font(font_stats)
+draw_text_shadow_color(392,12,"Prestige "+calc_number(store.prestige),c_white,c_white,c_silver,c_silver)
 
 //Draw  Stats 
 /*
@@ -38,8 +40,8 @@ draw_text_shadow_color(150,532,show_result[1],c_white,c_white,c_silver,c_silver)
 draw_text_shadow_color(150,552,show_result[2],c_white,c_white,c_silver,c_silver)
 draw_text_shadow_color(150,572,show_result[3],c_white,c_white,c_silver,c_silver)
 draw_text_shadow_color(150,592,show_result[4],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,592,show_result[5],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,592,show_result[6],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,612,show_result[5],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,632,show_result[6],c_white,c_white,c_silver,c_silver)
 }
 
 //Draw Menu Bars
