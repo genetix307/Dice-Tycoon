@@ -8,13 +8,10 @@ store.game_speed=ini_read_real( "save1", "game_speed",store.game_speed);
 store.sfx_volume=ini_read_real( "save1", "sfx_volume",store.sfx_volume);
 store.bgm_volume=ini_read_real( "save1", "bgm_volume",store.bgm_volume);
 store.bonus_discord=ini_read_real( "save1", "bonus_discord",store.bonus_discord);
-//store.auto_perk=ini_read_real( "save1", "auto_perk",store.auto_perk);
 store.ads_watched=ini_read_real( "save1", "ads_watched",store.ads_watched);
-//store.show_healthbars=ini_read_real( "save1", "show_healthbars",store.show_healthbars);
-//store.auto_upgrade=ini_read_real( "save1", "auto_upgrade",store.auto_upgrade);
-//store.auto_event=ini_read_real( "save1", "auto_event",store.auto_event);
-//store.story_scene=ini_read_real( "save1", "story_scene",store.story_scene);
-//store.tutorial=ini_read_real( "save1", "tutorial",store.tutorial);
+store.ads_watched_upgrades=ini_read_real( "save1", "ads_watched_upgrades",store.ads_watched_upgrades);
+store.show_million=ini_read_real( "save1", "show_million",store.show_million);
+store.show_billion=ini_read_real( "save1", "show_billion",store.show_billion);
 //Challenges
 store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
 store.challenge_b=ini_read_real( "save1", "challenge_b",store.challenge_b);
@@ -59,7 +56,10 @@ store.lvl_critical_chance=ini_read_real( "save1", "lvl_critical_chance",store.lv
 store.critical_multiplier=ini_read_real( "save1", "critical_multiplier",store.critical_multiplier);
 store.cost_critical_multiplier=ini_read_real( "save1", "cost_critical_multiplier",store.cost_critical_multiplier);
 store.lvl_critical_multiplier=ini_read_real( "save1", "lvl_critical_multiplier",store.lvl_critical_multiplier);
+store.cost_autoroll=ini_read_real( "save1", "cost_autoroll",store.cost_autoroll);
+store.lvl_autoroll=ini_read_real( "save1", "lvl_autoroll",store.lvl_autoroll);
 store.bonus_dots=ini_read_real( "save1", "bonus_dots",store.bonus_dots);
+store.ad_multiplier=ini_read_real( "save1", "ad_multiplier",store.ad_multiplier);
 
 //Collection
 store.collection_motorcycle=ini_read_real( "save1", "collection_motorcycle",store.collection_motorcycle);
@@ -72,7 +72,7 @@ store.collection_yaht=ini_read_real( "save1", "collection_yaht",store.collection
 store.collection_starship=ini_read_real( "save1", "collection_starship",store.collection_starship);
 store.collection_lamp=ini_read_real( "save1", "collection_lamp",store.collection_lamp);
 store.collection_media=ini_read_real( "save1", "collection_media",store.collection_media);
-
+store.collection_happiness=ini_read_real( "save1", "collection_happiness",store.collection_happiness);
 
 //Statistics
 store.highest_earnings=ini_read_real( "save1", "highest_earnings",store.highest_earnings);

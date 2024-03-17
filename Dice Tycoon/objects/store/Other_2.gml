@@ -9,7 +9,7 @@ hold_dev=0
 //Set All perm vars
 reset_progress()
 //Set Ingame vars
-reset_run()
+//reset_run()
 //Prevent screen from timing out
 os_powersave_enable(false);
 

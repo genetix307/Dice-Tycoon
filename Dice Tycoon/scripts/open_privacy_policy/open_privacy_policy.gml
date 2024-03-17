@@ -1,3 +1,3 @@
 function open_privacy_policy(){
-//url_open("https://doc-hosting.flycricket.io/knights-run-roguelite-defense-privacy-policy/8bb00df7-2b6b-4960-b79d-d5b5dd0a1802/privacy")
+url_open("https://www.termsfeed.com/live/4e9b6b9b-b892-47f0-a965-196174c056f0")
 }

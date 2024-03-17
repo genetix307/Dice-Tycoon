@@ -4,9 +4,12 @@ function reset_progress(){
 store.game_speed=1
 store.max_gamespeed=2
 store.ads_watched=0
+store.ads_watched_upgrades=0
 store.gem_chest_cooldown=0
 store.show_rating=0
 store.gems=0
+store.show_million=0
+store.show_billion=0
 
 //Game Settings
 store.color_scheme=4
@@ -31,6 +34,7 @@ store.lvl_template=1
 //In Game
 store.score=0
 store.prestige=1
+store.append_score=0
 
 //Perm Upgrades & Stats
 store.total_multiplier=1
@@ -63,7 +67,10 @@ store.lvl_critical_chance=1
 store.critical_multiplier=2
 store.cost_critical_multiplier=10
 store.lvl_critical_multiplier=1
+store.cost_autoroll=1000
+store.lvl_autoroll=1
 store.bonus_dots=0
+store.ad_multiplier=0
 
 //Collection
 store.collection_motorcycle=0
@@ -76,6 +83,7 @@ store.collection_yaht=0
 store.collection_starship=0
 store.collection_lamp=0
 store.collection_media=0
+store.collection_happiness=0
 
 //Statistics
 store.total_upgrades=0

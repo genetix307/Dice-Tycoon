@@ -9,6 +9,9 @@ ini_write_real( "save1", "sfx_volume", store.sfx_volume);
 ini_write_real( "save1", "bgm_volume", store.bgm_volume);
 ini_write_real( "save1", "bonus_discord", store.bonus_discord);
 ini_write_real( "save1", "ads_watched", store.ads_watched);
+ini_write_real( "save1", "ads_watched_upgrades", store.ads_watched_upgrades);
+ini_write_real( "save1", "show_million", store.show_million);
+ini_write_real( "save1", "show_billion", store.show_billion);
 //ini_write_real( "save1", "tutorial", store.tutorial);
 
 //Challenges
@@ -54,7 +57,10 @@ ini_write_real( "save1", "lvl_critical_chance", store.lvl_critical_chance);
 ini_write_real( "save1", "critical_multiplier", store.critical_multiplier);
 ini_write_real( "save1", "cost_critical_multiplier", store.cost_critical_multiplier);
 ini_write_real( "save1", "lvl_critical_multiplier", store.lvl_critical_multiplier);
+ini_write_real( "save1", "cost_autoroll", store.cost_autoroll);
+ini_write_real( "save1", "lvl_autoroll", store.lvl_autoroll);
 ini_write_real( "save1", "bonus_dots", store.bonus_dots);
+ini_write_real( "save1", "ad_multiplier", store.ad_multiplier);
 
 //Collection
 ini_write_real( "save1", "collection_motorcycle", store.collection_motorcycle);
@@ -67,6 +73,7 @@ ini_write_real( "save1", "collection_yaht", store.collection_yaht);
 ini_write_real( "save1", "collection_starship", store.collection_starship);
 ini_write_real( "save1", "collection_lamp", store.collection_lamp);
 ini_write_real( "save1", "collection_media", store.collection_media);
+ini_write_real( "save1", "collection_happiness", store.collection_happiness);
 
 //Statistics
 ini_write_real( "save1", "total_upgrades", store.total_upgrades);

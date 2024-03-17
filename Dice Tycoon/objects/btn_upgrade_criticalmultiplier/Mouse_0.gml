@@ -1,7 +1,7 @@
 // Genetix Studio
 hold+=1
 
-if hold<=1 or hold %10==0 {
+if hold<=1 or hold %10==0 or hold>30 {
 if store.score>=store.cost_critical_multiplier and maxxed = 0
 {
 store.score -= store.cost_critical_multiplier

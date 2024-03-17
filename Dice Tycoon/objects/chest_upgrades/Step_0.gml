@@ -1,0 +1,1 @@
+if AdMob_Interstitial_IsLoaded()=0 {image_alpha=0} else {image_alpha=1}

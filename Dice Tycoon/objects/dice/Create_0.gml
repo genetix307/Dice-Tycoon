@@ -10,4 +10,8 @@ wait=30
 if instance_number(dice)=1 {myID=0} else {myID=1}
 if myID<=0 {instance_create_depth(x+100,y,depth-10,dice)}
 
+//Start Autoroll
+if store.lvl_autoroll>1 {
+alarm[2]=(11-store.lvl_autoroll)*60	
+}
 

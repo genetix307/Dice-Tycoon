@@ -9,7 +9,13 @@ draw_set_alpha(1)
 draw_set_font(font_score)
 draw_text_shadow_color(4,2,"$"+calc_number(store.score),c_yellow,c_yellow,c_orange,c_orange)
 draw_set_font(font_stats)
-draw_text_shadow_color(392,12,"Prestige "+calc_number(store.prestige),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(383,5,"Prestige "+calc_number(store.prestige),c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(342,19,"Level Up Cost: "+calc_number(store.prestige*50000000000),c_gray,c_gray,c_silver,c_silver)
+
+//Start Autoroll
+if store.lvl_autoroll>1 and instance_number(dice)>0 {
+draw_text_shadow_color(196,882,"Autoroll "+calc_number(dice.alarm[2]/60),c_white,c_white,c_silver,c_silver)
+}
 
 //Draw  Stats 
 /*
@@ -32,16 +38,16 @@ draw_text_shadow_color(2,860,"Bonus Dots per Roll "+calc_number(store.bonus_dots
 
 //Draw Roll Results
 if room=rm_maingame and show_result[0]!="" {
-draw_set_font(font_stats)
-draw_text_shadow_color(192,493,"Roll Results",c_white,c_white,c_silver,c_silver)
-draw_line_color(185,508,270,508,c_white,c_silver)
-draw_text_shadow_color(150,512,show_result[0],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,532,show_result[1],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,552,show_result[2],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,572,show_result[3],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,592,show_result[4],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,612,show_result[5],c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(150,632,show_result[6],c_white,c_white,c_silver,c_silver)
+draw_set_font(font_stats_bigger)
+draw_text_shadow_color(192,393,"Roll Results",c_white,c_white,c_silver,c_silver)
+draw_line_color(185,408,270,408,c_white,c_silver)
+draw_text_shadow_color(150,412,show_result[0],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,432,show_result[1],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,452,show_result[2],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,472,show_result[3],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,492,show_result[4],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,512,show_result[5],c_white,c_white,c_silver,c_silver)
+draw_text_shadow_color(150,532,show_result[6],c_white,c_white,c_silver,c_silver)
 }
 
 //Draw Menu Bars
