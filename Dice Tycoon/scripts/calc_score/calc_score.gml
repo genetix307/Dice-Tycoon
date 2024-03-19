@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 function calc_score(){
 tmp_crit=0
 hud.show_result[0]=""
@@ -12,14 +11,14 @@ hud.show_result[6]=""
 
 //Calc Score
 hud.score_add=hud.score_dice_A+hud.score_dice_B+store.bonus_dots //Add Dice together
-if hud.score_dice_A=hud.score_dice_B {hud.score_add*=store.doubles_multiplier instance_create_depth(200,198,depth,effect_show_text).myText="Doubles!" store.doubles_rolled+=1 audio_play_sound(sfx_scratch,1,false) with dice {instance_create_depth(x,y,depth-50,effect_greenburst)}} //Multiply by Doubles multiplier
+if hud.score_dice_A=hud.score_dice_B {hud.score_add*=store.doubles_multiplier instance_create_depth(200,198,depth,effect_show_text).myText="Doubles!" store.doubles_rolled+=1 audio_play_sound(sfx_scratch,1,false) with dice {instance_create_depth(x,y,depth-50,effect_greenburst) repeat (hud.score_dice_A+hud.score_dice_B) instance_create_depth(240,170,depth+10,effect_money)}} //Multiply by Doubles multiplier
 if hud.score_dice_A=1 and hud.score_dice_B=1 {hud.score_add*=store.double1s_multiplier} //Multiply by Double1s multiplier
 if hud.score_dice_A=2 and hud.score_dice_B=2 {hud.score_add*=store.double2s_multiplier} //Multiply by Double1s multiplier
 if hud.score_dice_A=3 and hud.score_dice_B=3 {hud.score_add*=store.double3s_multiplier} //Multiply by Double1s multiplier
 if hud.score_dice_A=4 and hud.score_dice_B=4 {hud.score_add*=store.double4s_multiplier} //Multiply by Double1s multiplier
 if hud.score_dice_A=5 and hud.score_dice_B=5 {hud.score_add*=store.double5s_multiplier} //Multiply by Double1s multiplier
 if hud.score_dice_A=6 and hud.score_dice_B=6 {hud.score_add*=store.double6s_multiplier} //Multiply by Double1s multiplier
-if store.critical_chance>random(100) {hud.score_add*=store.critical_multiplier tmp_crit=1 instance_create_depth(192,214,depth,effect_show_text).myText="Critical Roll!" store.critical_rolls+=1 audio_play_sound(sfx_scratch,1,false) with dice {instance_create_depth(x,y,depth-50,effect_blueburst)}} //Critical Roll
+if store.critical_chance>random(100) {hud.score_add*=store.critical_multiplier tmp_crit=1 instance_create_depth(192,214,depth,effect_show_text).myText="Critical Roll!" store.critical_rolls+=1 audio_play_sound(sfx_scratch,1,false) with dice {instance_create_depth(x,y,depth-50,effect_blueburst) repeat (hud.score_dice_A+hud.score_dice_B) instance_create_depth(240,170,depth+10,effect_money)}} //Critical Roll
 if store.prestige>1 {hud.score_add*=store.prestige}
 if store.ad_multiplier>1 {hud.score_add*=store.ad_multiplier}
 hud.score_add*=store.total_multiplier //Multiply by total multiplier
@@ -30,7 +29,6 @@ tmp_spacer=0
 if hud.score_add<100 {tmp_spacer=4}
 if hud.score_add<10 {tmp_spacer=11}
 instance_create_depth(210+tmp_spacer,170,depth,effect_show_scoreadd).myText=hud.score_add
-repeat (hud.score_dice_A+hud.score_dice_B) instance_create_depth(240,170,depth+10,effect_money)
 
 //Set Roll Results
 var tmp_slot=1

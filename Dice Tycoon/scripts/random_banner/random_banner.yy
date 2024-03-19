@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "random_banner",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Misc",
-    "path": "folders/Scripts/Misc.yy",
+  "$GMScript":"",
+  "%Name":"random_banner",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"random_banner",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

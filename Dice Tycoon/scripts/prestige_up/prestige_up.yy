@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "prestige_up",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Init",
-    "path": "folders/Scripts/Init.yy",
+  "$GMScript":"",
+  "%Name":"prestige_up",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"prestige_up",
+  "parent":{
+    "name":"Init",
+    "path":"folders/Scripts/Init.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "draw_stats",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Draw",
-    "path": "folders/Scripts/Draw.yy",
+  "$GMScript":"",
+  "%Name":"draw_stats",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_stats",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Draw.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

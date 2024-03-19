@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "set_bg",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Draw",
-    "path": "folders/Scripts/Draw.yy",
+  "$GMScript":"",
+  "%Name":"set_bg",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_bg",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Draw.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

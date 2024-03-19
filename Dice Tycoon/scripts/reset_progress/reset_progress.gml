@@ -1,4 +1,5 @@
 function reset_progress(){
+// feather ignore GM2017 in *
 
 //MISC
 store.game_speed=1

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "draw_btn_color",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Draw",
-    "path": "folders/Scripts/Draw.yy",
+  "$GMScript":"",
+  "%Name":"draw_btn_color",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_btn_color",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Draw.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
