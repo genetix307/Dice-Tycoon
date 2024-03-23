@@ -6,6 +6,7 @@ store.show_billion=0
 //In Game
 store.score=0
 store.prestige+=1
+store.prestige_cost+=store.prestige_cost*2
 store.ads_watched_upgrades=0
 store.append_score=0
 
@@ -42,5 +43,8 @@ store.cost_critical_multiplier=10
 store.lvl_critical_multiplier=1
 store.cost_autoroll=1000
 store.lvl_autoroll=1
+store.cards=0
+store.card_cost=5000
+store.card_max_lvl=1
 //store.bonus_dots=0
 }

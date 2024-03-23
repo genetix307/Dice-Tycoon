@@ -12,6 +12,17 @@ store.gems=0
 store.show_million=0
 store.show_billion=0
 
+//Not Saved
+cardA=""
+cardB=""
+cardC=""
+cardA_lvl=1
+cardB_lvl=1
+cardC_lvl=1
+cardA_desc=""
+cardB_desc=""
+cardC_desc=""
+
 //Game Settings
 store.color_scheme=4
 store.sfx_volume=1
@@ -35,6 +46,7 @@ store.lvl_template=1
 //In Game
 store.score=0
 store.prestige=1
+store.prestige_cost=50000000000
 store.append_score=0
 
 //Perm Upgrades & Stats
@@ -72,6 +84,9 @@ store.cost_autoroll=1000
 store.lvl_autoroll=1
 store.bonus_dots=0
 store.ad_multiplier=0
+store.cards=0
+store.card_cost=1000
+store.card_max_lvl=1
 
 //Collection
 store.collection_motorcycle=0

@@ -1,6 +1,8 @@
 function calc_number(_number){
 var _text
-	if _number > 100000000000		// giga with 0 dec
+	if _number > 100000000000000		// Trillion with 0 dec
+		_text = string(round(_number / 1000000000000)) + "T"
+	else if _number > 100000000000		// giga with 0 dec
 		_text = string(round(_number / 1000000000)) + "B"
 	else if _number >= 10000000000	// giga with 1 dec
 		_text = string_format(_number / 1000000000, 2, 1) + "B"

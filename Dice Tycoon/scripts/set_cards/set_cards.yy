@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"draw_text_shadow",
+  "%Name":"set_cards",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"draw_text_shadow",
+  "name":"set_cards",
   "parent":{
-    "name":"Draw",
-    "path":"folders/Scripts/Draw.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -12,5 +12,6 @@ reset_progress()
 //reset_run()
 //Prevent screen from timing out
 os_powersave_enable(false);
+set_cards()
 
 append_score=0

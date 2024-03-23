@@ -26,6 +26,7 @@ ini_write_real( "save1", "lvl_template", store.lvl_template);
 ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
 ini_write_real( "save1", "score", store.score);
 ini_write_real( "save1", "prestige", store.prestige);
+ini_write_real( "save1", "prestige_cost", store.prestige_cost);
 //Perm Upgrades & Stats
 ini_write_real( "save1", "total_multiplier", store.total_multiplier);
 ini_write_real( "save1", "cost_totalmultiplier", store.cost_totalmultiplier);
@@ -61,6 +62,9 @@ ini_write_real( "save1", "cost_autoroll", store.cost_autoroll);
 ini_write_real( "save1", "lvl_autoroll", store.lvl_autoroll);
 ini_write_real( "save1", "bonus_dots", store.bonus_dots);
 ini_write_real( "save1", "ad_multiplier", store.ad_multiplier);
+ini_write_real( "save1", "cards", store.cards);
+ini_write_real( "save1", "card_cost", store.card_cost);
+ini_write_real( "save1", "card_max_lvl", store.card_max_lvl);
 
 //Collection
 ini_write_real( "save1", "collection_motorcycle", store.collection_motorcycle);
