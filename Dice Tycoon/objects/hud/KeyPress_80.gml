@@ -1,4 +1,4 @@
-store.critical_chance=100
+//store.critical_chance=100
 
 
 

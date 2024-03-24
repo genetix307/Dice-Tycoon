@@ -56,6 +56,7 @@
     {"name":"effect_money","order":8,"path":"objects/effect_money/effect_money.yy",},
     {"name":"effect_show_banner","order":7,"path":"objects/effect_show_banner/effect_show_banner.yy",},
     {"name":"effect_show_scoreadd","order":2,"path":"objects/effect_show_scoreadd/effect_show_scoreadd.yy",},
+    {"name":"effect_show_cardresult","order":9,"path":"objects/effect_show_cardresult/effect_show_cardresult.yy",},
     {"name":"effect_show_text","order":4,"path":"objects/effect_show_text/effect_show_text.yy",},
     {"name":"effect_upgrade","order":3,"path":"objects/effect_upgrade/effect_upgrade.yy",},
     {"name":"hud","order":1,"path":"objects/hud/hud.yy",},

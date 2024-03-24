@@ -1,5 +1,6 @@
 // Genetix Studio
 load_game()
+set_cards()
 	if store.sfx_volume = 0 {audio_group_set_gain(audio_sfx,0,60)}
 	if store.sfx_volume = 1 {audio_group_set_gain(audio_sfx,1,60)}
 	if store.bgm_volume = 0 {audio_group_set_gain(audio_bgm,0,60)}

@@ -1,4 +1,4 @@
-if store.cards>0 {
+if store.cards>0 and (hud.active_card="" or selected=1) {
 draw_self()
 draw_set_font(font_stats_bigger)
 draw_text_shadow(201,y+174,"Cards x"+calc_number(store.cards),c_gray)

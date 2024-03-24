@@ -1,5 +1,5 @@
 //store.prestige+=1
-set_cards()
+//set_cards()
 
 
 

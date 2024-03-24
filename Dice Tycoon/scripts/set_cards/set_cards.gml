@@ -6,9 +6,9 @@ store.cardA_lvl=max(1,irandom(store.card_max_lvl-1))
 store.cardB_lvl=max(1,irandom(store.card_max_lvl-1))
 store.cardC_lvl=max(1,irandom(store.card_max_lvl-1))
 
-if store.cardA="Restock" {store.cardA_desc="Gain "+string(1+store.cardA_lvl)+" Cards on roll."}
-if store.cardB="Restock" {store.cardB_desc="Gain "+string(1+1*store.cardB_lvl)+" Cards on roll."}
-if store.cardC="Restock" {store.cardC_desc="Gain "+string(1+1*store.cardC_lvl)+" Cards on roll."}
+if store.cardA="Restock" {store.cardA_desc="Gain "+string(1+(1*store.cardA_lvl))+" Cards on roll."}
+if store.cardB="Restock" {store.cardB_desc="Gain "+string(1+(1*store.cardB_lvl))+" Cards on roll."}
+if store.cardC="Restock" {store.cardC_desc="Gain "+string(1+(1*store.cardC_lvl))+" Cards on roll."}
 
 if store.cardA="Lump Sum" {store.cardA_desc="Earn $"+string(500*(store.cardA_lvl*store.cardA_lvl))+" on roll."}
 if store.cardB="Lump Sum" {store.cardB_desc="Earn $"+string(500*(store.cardB_lvl*store.cardB_lvl))+" on roll."}

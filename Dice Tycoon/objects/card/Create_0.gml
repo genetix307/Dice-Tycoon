@@ -1,4 +1,5 @@
 myID=0
+selected=0
 
 myName="Card Temp"
 myLevel=1

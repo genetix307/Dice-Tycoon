@@ -21,6 +21,8 @@ show_result[6]=""
 score_dice_A=0
 score_dice_B=0
 score_add=0
+active_card=""
+active_card_lvl=0
 
 if store.highest_earnings<10 {instance_create_depth(x,40,depth-10,effect_show_banner).myText="Welcome to Dice Tycoon!"}
 

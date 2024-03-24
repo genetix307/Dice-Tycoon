@@ -119,6 +119,7 @@
     {"id":{"name":"effect_money","path":"objects/effect_money/effect_money.yy",},},
     {"id":{"name":"effect_show_banner","path":"objects/effect_show_banner/effect_show_banner.yy",},},
     {"id":{"name":"effect_show_scoreadd","path":"objects/effect_show_scoreadd/effect_show_scoreadd.yy",},},
+    {"id":{"name":"effect_show_cardresult","path":"objects/effect_show_cardresult/effect_show_cardresult.yy",},},
     {"id":{"name":"effect_show_text","path":"objects/effect_show_text/effect_show_text.yy",},},
     {"id":{"name":"effect_upgrade","path":"objects/effect_upgrade/effect_upgrade.yy",},},
     {"id":{"name":"genetix_logo","path":"objects/genetix_logo/genetix_logo.yy",},},
