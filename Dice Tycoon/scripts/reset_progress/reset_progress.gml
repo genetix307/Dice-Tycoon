@@ -107,6 +107,7 @@ store.highest_earnings=0
 store.total_rolls=0
 store.doubles_rolled=0
 store.critical_rolls=0
+store.cards_played=0
 //store.challenges_completed=0
 
 //Bonus Codes

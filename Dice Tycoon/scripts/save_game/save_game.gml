@@ -85,6 +85,7 @@ ini_write_real( "save1", "total_rolls", store.total_rolls);
 ini_write_real( "save1", "doubles_rolled", store.doubles_rolled);
 ini_write_real( "save1", "critical_rolls", store.critical_rolls);
 ini_write_real( "save1", "highest_earnings", store.highest_earnings);
+ini_write_real( "save1", "cards_played", store.cards_played);
 //ini_write_real( "save1", "challenges_completed", store.challenges_completed);
 //Bonus Codes
 ini_write_real( "save1", "code_payday", store.code_payday);
