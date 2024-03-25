@@ -12,6 +12,7 @@ ini_write_real( "save1", "ads_watched", store.ads_watched);
 ini_write_real( "save1", "ads_watched_upgrades", store.ads_watched_upgrades);
 ini_write_real( "save1", "show_million", store.show_million);
 ini_write_real( "save1", "show_billion", store.show_billion);
+ini_write_real( "save1", "auto_card", store.auto_card);
 //ini_write_real( "save1", "tutorial", store.tutorial);
 
 //Challenges
@@ -65,6 +66,7 @@ ini_write_real( "save1", "ad_multiplier", store.ad_multiplier);
 ini_write_real( "save1", "cards", store.cards);
 ini_write_real( "save1", "card_cost", store.card_cost);
 ini_write_real( "save1", "card_max_lvl", store.card_max_lvl);
+ini_write_real( "save1", "card_lvl_cost", store.card_lvl_cost);
 
 //Collection
 ini_write_real( "save1", "collection_motorcycle", store.collection_motorcycle);

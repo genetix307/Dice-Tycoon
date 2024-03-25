@@ -24,11 +24,12 @@ if store.ad_multiplier>1 {hud.score_add*=store.ad_multiplier}
 hud.score_add*=store.total_multiplier //Multiply by total multiplier
 
 //Handle Cards
-if hud.active_card="Restock" and (hud.score_dice_A=1 or hud.score_dice_B=1 or hud.score_dice_A=3 or hud.score_dice_B=3 or hud.score_dice_A=5 or hud.score_dice_B=5) {store.cards+=1+(1*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="+"+calc_number(1+(1*hud.active_card_lvl))+" cards"}
-if hud.active_card="Lump Sum" {store.append_score+=500*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(500*(hud.active_card_lvl*hud.active_card_lvl))}
-if hud.active_card="Spot Roll" and (hud.score_dice_A=6 or hud.score_dice_B=6) {store.append_score+=4000*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(4000*(hud.active_card_lvl*hud.active_card_lvl))}
-if hud.active_card="Double Up" and (hud.score_dice_A=hud.score_dice_B) {store.append_score+=5000*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(5000*(hud.active_card_lvl*hud.active_card_lvl))}
-if hud.active_card="Lotto" {var tmp_lotto=ceil(random((3000*(hud.active_card_lvl*hud.active_card_lvl)))) store.append_score+=tmp_lotto instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(tmp_lotto)}
+if hud.active_card="Restock" and (hud.score_dice_A=1 or hud.score_dice_B=1 or hud.score_dice_A=3 or hud.score_dice_B=3) {store.cards+=1+(1*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="+"+calc_number(1+(1*hud.active_card_lvl))+" cards"}
+if hud.active_card="Lump Sum" {store.append_score+=300*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(300*(hud.active_card_lvl*hud.active_card_lvl))}
+if hud.active_card="Slop" {store.append_score+=10*hud.active_card_lvl instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(10*hud.active_card_lvl)}
+if hud.active_card="Spot Roll" and (hud.score_dice_A=6 or hud.score_dice_B=6) {store.append_score+=2500*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(2500*(hud.active_card_lvl*hud.active_card_lvl))}
+if hud.active_card="Double Up" and (hud.score_dice_A=hud.score_dice_B) {store.append_score+=3000*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(3000*(hud.active_card_lvl*hud.active_card_lvl))}
+if hud.active_card="Lotto" {var tmp_lotto=ceil(random((1500*(hud.active_card_lvl*hud.active_card_lvl)))) store.append_score+=tmp_lotto instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(tmp_lotto)}
 
 //Add Score
 store.append_score+=hud.score_add
@@ -63,7 +64,7 @@ if store.ad_multiplier>0 {store.ad_multiplier-=1}
 if hud.active_card!="" {set_cards()}
 hud.active_card=""
 hud.active_card_lvl=0
-with card {selected=0}
+with card {selected=0 if store.auto_card=1 {alarm[0]=random(90)}}
 if 5>random(100) and instance_number(effect_show_banner)=0 {random_banner()} //Make random banner
 save_game()
 }

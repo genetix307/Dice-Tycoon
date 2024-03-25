@@ -10,6 +10,9 @@ store.prestige_cost+=store.prestige_cost*2
 store.ads_watched_upgrades=0
 store.append_score=0
 
+//TEMP COLLECTION DOT FIX can remove after patch 1.05
+if store.bonus_dots>70 {store.bonus_dots=70}
+
 //Perm Upgrades & Stats
 store.total_multiplier=1
 store.cost_totalmultiplier=10
@@ -46,5 +49,6 @@ store.lvl_autoroll=1
 store.cards=0
 store.card_cost=5000
 store.card_max_lvl=1
+store.card_lvl_cost=0
 //store.bonus_dots=0
 }

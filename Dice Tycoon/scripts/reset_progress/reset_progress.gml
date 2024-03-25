@@ -28,6 +28,7 @@ store.color_scheme=4
 store.sfx_volume=1
 store.bgm_volume=1
 store.bonus_discord=0
+store.auto_card=0
 //store.auto_perk=0
 //store.show_healthbars=0
 //store.auto_upgrade=0
@@ -87,6 +88,7 @@ store.ad_multiplier=0
 store.cards=0
 store.card_cost=1000
 store.card_max_lvl=1
+store.card_lvl_cost=0
 
 //Collection
 store.collection_motorcycle=0

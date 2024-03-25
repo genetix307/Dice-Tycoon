@@ -4,6 +4,6 @@ greyed_out=0
 cost=10000000
 image_speed=0
 myName="Private Jet"
-bonus_dots=20
+bonus_dots=6
 
 

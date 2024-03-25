@@ -8,6 +8,7 @@
     {"name":"font_score","order":5,"path":"fonts/font_score/font_score.yy",},
     {"name":"font_stats_bigger","order":6,"path":"fonts/font_stats_bigger/font_stats_bigger.yy",},
     {"name":"btn_abandon_run","order":1,"path":"objects/btn_abandon_run/btn_abandon_run.yy",},
+    {"name":"btn_autocard","order":16,"path":"objects/btn_autocard/btn_autocard.yy",},
     {"name":"btn_bgm","order":2,"path":"objects/btn_bgm/btn_bgm.yy",},
     {"name":"btn_cards","order":14,"path":"objects/btn_cards/btn_cards.yy",},
     {"name":"btn_clear_progress","order":14,"path":"objects/btn_clear_progress/btn_clear_progress.yy",},
@@ -114,6 +115,7 @@
     {"name":"spr_blueburst","order":4,"path":"sprites/spr_blueburst/spr_blueburst.yy",},
     {"name":"spr_btn_pause","order":2,"path":"sprites/spr_btn_pause/spr_btn_pause.yy",},
     {"name":"spr_card","order":4,"path":"sprites/spr_card/spr_card.yy",},
+    {"name":"spr_card_back","order":5,"path":"sprites/spr_card_back/spr_card_back.yy",},
     {"name":"spr_chest_open","order":1,"path":"sprites/spr_chest_open/spr_chest_open.yy",},
     {"name":"spr_chest","order":10,"path":"sprites/spr_chest/spr_chest.yy",},
     {"name":"spr_collection_2ndhome","order":4,"path":"sprites/spr_collection_2ndhome/spr_collection_2ndhome.yy",},
@@ -151,6 +153,5 @@
     {"name":"spr_show_upgrade","order":2,"path":"sprites/spr_show_upgrade/spr_show_upgrade.yy",},
     {"name":"spr_title_backdrop","order":1,"path":"sprites/spr_title_backdrop/spr_title_backdrop.yy",},
     {"name":"spr_upgradebox","order":17,"path":"sprites/spr_upgradebox/spr_upgradebox.yy",},
-    {"name":"Sprite53","order":1,"path":"sprites/Sprite53/Sprite53.yy",},
   ],
 }

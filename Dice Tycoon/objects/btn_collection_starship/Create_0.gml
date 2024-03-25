@@ -4,6 +4,6 @@ greyed_out=0
 cost=100000000000
 image_speed=0
 myName="Starship"
-bonus_dots=40
+bonus_dots=9
 
 

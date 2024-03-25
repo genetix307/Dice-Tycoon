@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"card",
+  "%Name":"btn_autocard",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"card",
+  "name":"btn_autocard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/Environment.yy",
+    "name":"Settings",
+    "path":"folders/Objects/Menu/Settings.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,9 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_card",
-    "path":"sprites/spr_card/spr_card.yy",
+    "name":"btn_small_tab",
+    "path":"sprites/btn_small_tab/btn_small_tab.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"btn_small_tab",
+    "path":"sprites/btn_small_tab/btn_small_tab.yy",
+  },
   "visible":true,
 }
