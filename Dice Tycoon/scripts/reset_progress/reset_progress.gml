@@ -11,6 +11,7 @@ store.show_rating=0
 store.gems=0
 store.show_million=0
 store.show_billion=0
+store.show_trillion=0
 
 //Not Saved
 cardA=""
@@ -29,6 +30,7 @@ store.sfx_volume=1
 store.bgm_volume=1
 store.bonus_discord=0
 store.auto_card=0
+store.auto_roll=1
 //store.auto_perk=0
 //store.show_healthbars=0
 //store.auto_upgrade=0
@@ -116,4 +118,5 @@ store.cards_played=0
 store.code_payday=0
 store.code_kickstart=0
 store.code_lotto=0
+store.code_cardshark=0
 }

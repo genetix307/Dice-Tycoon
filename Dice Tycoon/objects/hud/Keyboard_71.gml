@@ -1,4 +1,4 @@
-//store.score+=1000000
+store.score+=1000000000
 
 
 

@@ -7,7 +7,20 @@ if store.score>=store.cost_double6smultiplier and maxxed = 0
 store.score -= store.cost_double6smultiplier
 store.double6s_multiplier+=1
 store.lvl_double6smultiplier+=1
-store.cost_double6smultiplier +=store.lvl_double6smultiplier*50
+store.cost_double6smultiplier +=store.lvl_double6smultiplier*100
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 }
 }
+
+//Faster Buying
+if hold>30 {
+if store.score>=store.cost_double6smultiplier*5 and maxxed = 0
+{
+store.score -= store.cost_double6smultiplier*5
+store.double6s_multiplier+=5
+store.lvl_double6smultiplier+=5
+store.cost_double6smultiplier +=store.lvl_double6smultiplier*500
+instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+}
+}
+

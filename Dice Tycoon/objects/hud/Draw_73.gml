@@ -14,7 +14,8 @@ draw_text_shadow_color(367,19,"Level Up: $"+calc_number(store.prestige_cost),c_g
 
 //Start Autoroll
 if store.lvl_autoroll>1 and instance_number(dice)>0 {
-draw_text_shadow_color(196,882,"Autoroll "+calc_number(dice.alarm[2]/60),c_white,c_white,c_silver,c_silver)
+if store.auto_roll=1 {draw_text_shadow_color(196,882,"Autoroll "+calc_number(dice.alarm[2]/60),c_white,c_white,c_silver,c_silver)}
+if store.auto_roll=0 {draw_text_shadow_color(195,882,"Autoroll Off",c_white,c_white,c_silver,c_silver)}
 }
 
 //Draw  Stats 

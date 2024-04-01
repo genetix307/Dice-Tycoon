@@ -12,7 +12,9 @@ store.ads_watched=ini_read_real( "save1", "ads_watched",store.ads_watched);
 store.ads_watched_upgrades=ini_read_real( "save1", "ads_watched_upgrades",store.ads_watched_upgrades);
 store.show_million=ini_read_real( "save1", "show_million",store.show_million);
 store.show_billion=ini_read_real( "save1", "show_billion",store.show_billion);
+store.show_trillion=ini_read_real( "save1", "show_trillion",store.show_trillion);
 store.auto_card=ini_read_real( "save1", "auto_card",store.auto_card);
+store.auto_roll=ini_read_real( "save1", "auto_roll",store.auto_roll);
 //Challenges
 store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
 store.challenge_b=ini_read_real( "save1", "challenge_b",store.challenge_b);
@@ -92,7 +94,7 @@ store.cards_played=ini_read_real( "save1", "cards_played",store.cards_played);
 store.code_payday=ini_read_real( "save1", "code_payday",store.code_payday);
 store.code_kickstart=ini_read_real( "save1", "code_kickstart",store.code_kickstart);
 store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
-
+store.code_cardshark=ini_read_real( "save1", "code_cardshark",store.code_cardshark);
 
 	ini_close();
 }

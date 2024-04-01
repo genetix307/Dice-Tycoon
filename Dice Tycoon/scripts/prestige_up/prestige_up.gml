@@ -2,6 +2,7 @@ function prestige_up(){
 
 store.show_million=0
 store.show_billion=0
+store.show_trillion=0
 
 //In Game
 store.score=0
