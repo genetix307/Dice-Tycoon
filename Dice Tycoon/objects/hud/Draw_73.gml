@@ -10,7 +10,8 @@ draw_set_font(font_score)
 draw_text_shadow_color(4,2,"$"+calc_number(store.score),c_yellow,c_yellow,c_orange,c_orange)
 draw_set_font(font_stats)
 draw_text_shadow_color(383,5,"Prestige "+calc_number(store.prestige),c_white,c_white,c_silver,c_silver)
-draw_text_shadow_color(367,19,"Level Up: $"+calc_number(store.prestige_cost),c_gray,c_gray,c_silver,c_silver)
+if store.prestige<10 {draw_text_shadow_color(367,19,"Level Up: $"+calc_number(store.prestige_cost),c_gray,c_gray,c_silver,c_silver)}
+if store.prestige>=10 {draw_text_shadow_color(338,19,"Level Up: $"+calc_number(store.prestige_cost),c_gray,c_gray,c_silver,c_silver)}
 
 //Start Autoroll
 if store.lvl_autoroll>1 and instance_number(dice)>0 {

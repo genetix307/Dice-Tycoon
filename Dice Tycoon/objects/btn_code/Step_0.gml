@@ -30,3 +30,11 @@ store.cards += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Cards +"+string(reward)+"!"
 save_game()
 }
+if myResult = "joker" and store.code_joker = 0
+{
+reward = 77777
+store.code_joker = 1
+store.score += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded $"+string(reward)+"!"
+save_game()
+}

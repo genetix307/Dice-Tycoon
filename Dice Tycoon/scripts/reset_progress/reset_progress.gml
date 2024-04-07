@@ -91,6 +91,8 @@ store.cards=0
 store.card_cost=1000
 store.card_max_lvl=1
 store.card_lvl_cost=0
+store.lvl_cashps=0
+store.cost_cashps=100
 
 //Collection
 store.collection_motorcycle=0
@@ -119,4 +121,5 @@ store.code_payday=0
 store.code_kickstart=0
 store.code_lotto=0
 store.code_cardshark=0
+store.code_joker=0
 }

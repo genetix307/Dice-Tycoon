@@ -51,5 +51,7 @@ store.cards=0
 store.card_cost=5000
 store.card_max_lvl=1
 store.card_lvl_cost=0
+store.lvl_cashps=0
+store.cost_cashps=100
 //store.bonus_dots=0
 }

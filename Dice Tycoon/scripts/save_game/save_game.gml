@@ -69,6 +69,8 @@ ini_write_real( "save1", "cards", store.cards);
 ini_write_real( "save1", "card_cost", store.card_cost);
 ini_write_real( "save1", "card_max_lvl", store.card_max_lvl);
 ini_write_real( "save1", "card_lvl_cost", store.card_lvl_cost);
+ini_write_real( "save1", "lvl_cashps", store.lvl_cashps);
+ini_write_real( "save1", "cost_cashps", store.cost_cashps);
 
 //Collection
 ini_write_real( "save1", "collection_motorcycle", store.collection_motorcycle);
@@ -96,6 +98,7 @@ ini_write_real( "save1", "code_payday", store.code_payday);
 ini_write_real( "save1", "code_kickstart", store.code_kickstart);
 ini_write_real( "save1", "code_lotto", store.code_lotto);
 ini_write_real( "save1", "code_cardshark", store.code_cardshark);
+ini_write_real( "save1", "code_joker", store.code_joker);
 	
 	ini_close();
 

@@ -68,6 +68,8 @@ store.cards=ini_read_real( "save1", "cards",store.cards);
 store.card_cost=ini_read_real( "save1", "card_cost",store.card_cost);
 store.card_lvl_cost=ini_read_real( "save1", "card_lvl_cost",store.card_lvl_cost);
 store.card_max_lvl=ini_read_real( "save1", "card_max_lvl",store.card_max_lvl);
+store.cost_cashps=ini_read_real( "save1", "cost_cashps",store.cost_cashps);
+store.lvl_cashps=ini_read_real( "save1", "lvl_cashps",store.lvl_cashps);
 
 //Collection
 store.collection_motorcycle=ini_read_real( "save1", "collection_motorcycle",store.collection_motorcycle);
@@ -95,6 +97,7 @@ store.code_payday=ini_read_real( "save1", "code_payday",store.code_payday);
 store.code_kickstart=ini_read_real( "save1", "code_kickstart",store.code_kickstart);
 store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
 store.code_cardshark=ini_read_real( "save1", "code_cardshark",store.code_cardshark);
+store.code_joker=ini_read_real( "save1", "code_joker",store.code_joker);
 
 	ini_close();
 }
