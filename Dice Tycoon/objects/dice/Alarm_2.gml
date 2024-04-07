@@ -5,8 +5,11 @@ with dice {
 active=1
 sprite_index=spr_dice_roll
 image_speed=1
-alarm[0]=40+random(20)
+alarm[0]=20+random(15)
 jump=round(alarm[0]/2)
+myValue=irandom_range(1,6) //floor(random(5.99)+1)
+if myID=0 {hud.score_dice_A=myValue}
+if myID=1 {hud.score_dice_B=myValue}
 hud.rolling=1
 hud.can_roll=1
 }
