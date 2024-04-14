@@ -1,11 +1,11 @@
 // Genetix Studio
 ad_load_interstitial()
-reward=1000
-if store.ads_watched_upgrades>0 {reward=1000+(1500*store.ads_watched_upgrades)}
-reward+=store.prestige*500
-reward+=10*store.lvl_totalmultiplier
+reward=5000
+if store.ads_watched_upgrades>0 {reward=(5000*store.ads_watched_upgrades)*store.ads_watched_upgrades}
+reward+=store.prestige*5000
+reward+=25*store.lvl_totalmultiplier
 
-if reward>100000000 {reward=100000000}
+if reward>1000000000 {reward=1000000000}
 
 
 

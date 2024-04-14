@@ -9,6 +9,7 @@ store.double4s_multiplier+=1
 store.lvl_double4smultiplier+=1
 store.cost_double4smultiplier +=store.lvl_double4smultiplier*100
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=1
 }
 }
 
@@ -21,5 +22,6 @@ store.double4s_multiplier+=5
 store.lvl_double4smultiplier+=5
 store.cost_double4smultiplier +=store.lvl_double4smultiplier*500
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=5
 }
 }

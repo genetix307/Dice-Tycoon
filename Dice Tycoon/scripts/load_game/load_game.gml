@@ -22,6 +22,13 @@ store.challenge_c=ini_read_real( "save1", "challenge_c",store.challenge_c);
 store.challenge_flag=ini_read_real( "save1", "challenge_flag",store.challenge_flag);
 store.goal_template=ini_read_real( "save1", "goal_template",store.goal_template);
 store.lvl_template=ini_read_real( "save1", "lvl_template",store.lvl_template);
+//Achievements
+store.ach_earnings=ini_read_real( "save1", "ach_earnings",store.ach_earnings);
+store.ach_rolls=ini_read_real( "save1", "ach_rolls",store.ach_rolls);
+store.ach_doubles=ini_read_real( "save1", "ach_doubles",store.ach_doubles);
+store.ach_criticals=ini_read_real( "save1", "ach_criticals",store.ach_criticals);
+store.ach_cards=ini_read_real( "save1", "ach_cards",store.ach_cards);
+store.ach_upgrades=ini_read_real( "save1", "ach_upgrades",store.ach_upgrades);
 
 //Perm 
 store.gems=ini_read_real( "save1", "gems",store.gems);
@@ -98,6 +105,7 @@ store.code_kickstart=ini_read_real( "save1", "code_kickstart",store.code_kicksta
 store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
 store.code_cardshark=ini_read_real( "save1", "code_cardshark",store.code_cardshark);
 store.code_joker=ini_read_real( "save1", "code_joker",store.code_joker);
+store.code_shinyrocks=ini_read_real( "save1", "code_shinyrocks",store.code_shinyrocks);
 
 	ini_close();
 }

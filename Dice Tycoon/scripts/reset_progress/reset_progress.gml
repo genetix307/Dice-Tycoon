@@ -46,6 +46,14 @@ store.challenge_flag=0
 store.goal_template=0
 store.lvl_template=1
 
+//Achievements
+store.ach_earnings=1
+store.ach_rolls=1
+store.ach_doubles=1
+store.ach_criticals=1
+store.ach_cards=1
+store.ach_upgrades=1
+
 //In Game
 store.score=0
 store.prestige=1
@@ -122,4 +130,5 @@ store.code_kickstart=0
 store.code_lotto=0
 store.code_cardshark=0
 store.code_joker=0
+store.code_shinyrocks=0
 }

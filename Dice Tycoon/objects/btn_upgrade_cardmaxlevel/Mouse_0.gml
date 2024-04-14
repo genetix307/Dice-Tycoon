@@ -18,6 +18,7 @@ if store.card_max_lvl>90 {store.card_lvl_cost+=80000}
 if store.card_max_lvl>100 {store.card_lvl_cost+=100000}
 if store.prestige>1 {store.card_lvl_cost+=store.prestige*5}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=1
 }
 }
 
@@ -39,6 +40,7 @@ if store.card_max_lvl>90 {store.card_lvl_cost+=80000}
 if store.card_max_lvl>100 {store.card_lvl_cost+=100000}
 if store.prestige>1 {store.card_lvl_cost+=store.prestige*5}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=5
 }
 }
 

@@ -38,3 +38,11 @@ store.score += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded $"+string(reward)+"!"
 save_game()
 }
+if myResult = "shinyrocks" and store.code_shinyrocks = 0
+{
+reward = 25*store.prestige
+store.code_shinyrocks = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Reward "+string(reward)+" Gems!"
+save_game()
+}

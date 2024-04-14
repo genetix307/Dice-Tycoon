@@ -2,12 +2,14 @@ if game_paused=0 {
 //var cx = camera_get_view_x(view_camera[0]);
 //var cy = camera_get_view_y(view_camera[0]);
 
-//Draw Score
+//Draw Score and Gems and Prestige
 draw_set_alpha(.95)
 draw_rectangle_color(0,4,room_width,36,c_dkgray,c_dkgray,c_black,c_black,false)
 draw_set_alpha(1)
 draw_set_font(font_score)
 draw_text_shadow_color(4,2,"$"+calc_number(store.score),c_yellow,c_yellow,c_orange,c_orange)
+draw_text_shadow_color(274,2,calc_number(store.gems),c_white,c_white,c_silver,c_silver)
+draw_sprite(spr_show_gem,0,260,24)
 draw_set_font(font_stats)
 draw_text_shadow_color(383,5,"Prestige "+calc_number(store.prestige),c_white,c_white,c_silver,c_silver)
 if store.prestige<10 {draw_text_shadow_color(367,19,"Level Up: $"+calc_number(store.prestige_cost),c_gray,c_gray,c_silver,c_silver)}
@@ -15,8 +17,8 @@ if store.prestige>=10 {draw_text_shadow_color(338,19,"Level Up: $"+calc_number(s
 
 //Start Autoroll
 if store.lvl_autoroll>1 and instance_number(dice)>0 {
-if store.auto_roll=1 {draw_text_shadow_color(196,882,"Autoroll "+calc_number(dice.alarm[2]/60),c_white,c_white,c_silver,c_silver)}
-if store.auto_roll=0 {draw_text_shadow_color(195,882,"Autoroll Off",c_white,c_white,c_silver,c_silver)}
+if store.auto_roll=1 {draw_text_shadow_color(196,836,"Autoroll "+calc_number(dice.alarm[2]/60),c_white,c_white,c_silver,c_silver)}
+if store.auto_roll=0 {draw_text_shadow_color(195,836,"Autoroll Off",c_white,c_white,c_silver,c_silver)}
 }
 
 //Draw  Stats 
@@ -53,9 +55,11 @@ draw_text_shadow_color(150,532,show_result[6],c_white,c_white,c_silver,c_silver)
 }
 
 //Draw Menu Bars
-draw_set_alpha(.95)
-draw_rectangle_color(0,900,room_width,960,c_dkgray,c_dkgray,c_dkgray,c_dkgray,false)
+if room=rm_maingame {
+draw_set_alpha(.75)
+draw_rectangle_color(0,854,room_width,960,c_dkgray,c_dkgray,c_dkgray,c_dkgray,false)
 draw_set_alpha(1)
+}
 
 //Draw Fade
 if show_fade>0 {

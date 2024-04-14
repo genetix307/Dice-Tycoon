@@ -9,6 +9,7 @@ if store.cards<=0 {set_cards()}
 store.cards+=10
 store.card_cost +=5000
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=1
 }
 }
 
@@ -21,5 +22,6 @@ if store.cards<=0 {set_cards()}
 store.cards+=10
 store.card_cost +=5000
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=5
 }
 }

@@ -11,9 +11,11 @@ store.cost_totalmultiplier +=store.lvl_totalmultiplier*100
 if store.lvl_totalmultiplier>70 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*10}
 if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*20}
 if store.lvl_totalmultiplier>150 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
-if store.lvl_totalmultiplier>250 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
+if store.lvl_totalmultiplier>200 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
+if store.lvl_totalmultiplier>500 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
 if store.prestige>1 {store.cost_totalmultiplier+=store.prestige*5}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=1
 }
 }
 
@@ -28,8 +30,10 @@ store.cost_totalmultiplier +=store.lvl_totalmultiplier*500
 if store.lvl_totalmultiplier>70 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
 if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*100}
 if store.lvl_totalmultiplier>150 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}
-if store.lvl_totalmultiplier>250 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}
+if store.lvl_totalmultiplier>200 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}
+if store.lvl_totalmultiplier>500 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}
 if store.prestige>1 {store.cost_totalmultiplier+=store.prestige*25}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=5
 }
 }

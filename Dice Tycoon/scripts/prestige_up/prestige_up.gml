@@ -10,9 +10,10 @@ store.prestige+=1
 store.prestige_cost+=store.prestige_cost*2
 store.ads_watched_upgrades=0
 store.append_score=0
+store.gems+=50
 
 //TEMP COLLECTION DOT FIX can remove after patch 1.05
-if store.bonus_dots>70 {store.bonus_dots=70}
+//if store.bonus_dots>70 {store.bonus_dots=70}
 
 //Perm Upgrades & Stats
 store.total_multiplier=1

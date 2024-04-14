@@ -25,11 +25,11 @@ hud.score_add*=store.total_multiplier //Multiply by total multiplier
 
 //Handle Cards
 if hud.active_card="Restock" and (hud.score_dice_A=1 or hud.score_dice_B=1) {store.cards+=1+(1*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="+"+calc_number(1+(1*hud.active_card_lvl))+" cards"}
-if hud.active_card="Lump Sum" {store.append_score+=500*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(500*(hud.active_card_lvl*hud.active_card_lvl))}
+if hud.active_card="Lump Sum" {store.append_score+=1000*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(1000*(hud.active_card_lvl*hud.active_card_lvl))}
 if hud.active_card="Slop" {store.append_score+=10*hud.active_card_lvl instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(10*hud.active_card_lvl)}
 if hud.active_card="Spot Roll" and (hud.score_dice_A=6 or hud.score_dice_B=6) {store.append_score+=5000*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(5000*(hud.active_card_lvl*hud.active_card_lvl))}
 if hud.active_card="Double Up" and (hud.score_dice_A=hud.score_dice_B) {store.append_score+=7500*(hud.active_card_lvl*hud.active_card_lvl) instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(7500*(hud.active_card_lvl*hud.active_card_lvl))}
-if hud.active_card="Lotto" {var tmp_lotto=ceil(random((1500*(hud.active_card_lvl*hud.active_card_lvl)))) store.append_score+=tmp_lotto instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(tmp_lotto)}
+if hud.active_card="Lotto" {var tmp_lotto=ceil(random((2500*(hud.active_card_lvl*hud.active_card_lvl)))) store.append_score+=tmp_lotto instance_create_depth(210,600,depth,effect_show_cardresult).myText="$"+calc_number(tmp_lotto)}
 
 //Add Score
 store.append_score+=hud.score_add

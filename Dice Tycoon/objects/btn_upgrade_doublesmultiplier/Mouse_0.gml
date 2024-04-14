@@ -11,6 +11,7 @@ store.cost_doublesmultiplier +=store.lvl_doublesmultiplier*25
 if store.lvl_doublesmultiplier>20 {store.cost_doublesmultiplier +=store.lvl_doublesmultiplier*round(store.lvl_doublesmultiplier/5)}
 if store.prestige>1 {store.cost_doublesmultiplier+=store.prestige*5}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=1
 }
 }
 
@@ -25,5 +26,6 @@ store.cost_doublesmultiplier +=store.lvl_doublesmultiplier*125
 if store.lvl_doublesmultiplier>20 {store.cost_doublesmultiplier +=store.lvl_doublesmultiplier*round(store.lvl_doublesmultiplier)}
 if store.prestige>1 {store.cost_doublesmultiplier+=store.prestige*25}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
+store.total_upgrades+=5
 }
 }

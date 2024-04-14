@@ -1,4 +1,7 @@
 if store.score>(store.prestige_cost)
 {
-	draw_self()
+greyed_out=0
 }
+else {greyed_out=1}
+
+draw_self()
