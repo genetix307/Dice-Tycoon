@@ -115,6 +115,21 @@ store.collection_lamp=0
 store.collection_media=0
 store.collection_happiness=0
 
+//Properties
+store.prop_1=0
+store.prop_2=0
+store.prop_3=0
+store.prop_4=0
+store.prop_5=0
+store.prop_6=0
+store.prop_7=0
+store.prop_8=0
+store.prop_9=0
+store.prop_10=0
+store.rent=0
+store.rent_rolls=0
+
+
 //Statistics
 store.total_upgrades=0
 store.highest_earnings=0

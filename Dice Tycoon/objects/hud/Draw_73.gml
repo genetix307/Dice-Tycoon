@@ -21,6 +21,9 @@ if store.auto_roll=1 {draw_text_shadow_color(196,836,"Autoroll "+calc_number(dic
 if store.auto_roll=0 {draw_text_shadow_color(195,836,"Autoroll Off",c_white,c_white,c_silver,c_silver)}
 }
 
+//Show Rent
+if store.rent>0 and instance_number(dice)>0 {draw_text_shadow_color(14,836,"Rent in "+string(25-store.rent_rolls)+" rolls",c_white,c_white,c_silver,c_silver)}
+
 //Draw  Stats 
 /*
 if room=rm_maingame {

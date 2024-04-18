@@ -91,6 +91,20 @@ store.collection_lamp=ini_read_real( "save1", "collection_lamp",store.collection
 store.collection_media=ini_read_real( "save1", "collection_media",store.collection_media);
 store.collection_happiness=ini_read_real( "save1", "collection_happiness",store.collection_happiness);
 
+//Properties
+store.prop_1=ini_read_real( "save1", "prop_1",store.prop_1);
+store.prop_2=ini_read_real( "save1", "prop_2",store.prop_2);
+store.prop_3=ini_read_real( "save1", "prop_3",store.prop_3);
+store.prop_4=ini_read_real( "save1", "prop_4",store.prop_4);
+store.prop_5=ini_read_real( "save1", "prop_5",store.prop_5);
+store.prop_6=ini_read_real( "save1", "prop_6",store.prop_6);
+store.prop_7=ini_read_real( "save1", "prop_7",store.prop_7);
+store.prop_8=ini_read_real( "save1", "prop_8",store.prop_8);
+store.prop_9=ini_read_real( "save1", "prop_9",store.prop_9);
+store.prop_10=ini_read_real( "save1", "prop_10",store.prop_10);
+store.rent=ini_read_real( "save1", "rent",store.rent);
+store.rent_rolls=ini_read_real( "save1", "rent_rolls",store.rent_rolls);
+
 //Statistics
 store.highest_earnings=ini_read_real( "save1", "highest_earnings",store.highest_earnings);
 store.total_rolls=ini_read_real( "save1", "total_rolls",store.total_rolls);
