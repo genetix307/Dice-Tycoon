@@ -46,3 +46,19 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Reward "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "rateplease" and store.code_rateplease = 0
+{
+reward = 100
+store.code_rateplease = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Reward "+string(reward)+" Gems!"
+save_game()
+}
+if myResult = "happy" and store.code_happy = 0
+{
+reward = 100
+store.code_happy = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Reward "+string(reward)+" Gems!"
+save_game()
+}

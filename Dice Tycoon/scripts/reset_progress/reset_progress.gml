@@ -53,6 +53,7 @@ store.ach_doubles=1
 store.ach_criticals=1
 store.ach_cards=1
 store.ach_upgrades=1
+store.ach_rent=1
 
 //In Game
 store.score=0
@@ -98,7 +99,9 @@ store.ad_multiplier=0
 store.cards=0
 store.card_cost=1000
 store.card_max_lvl=1
+store.card_min_lvl=1
 store.card_lvl_cost=0
+store.card_lvl_min_cost=0
 store.lvl_cashps=0
 store.cost_cashps=100
 
@@ -129,7 +132,6 @@ store.prop_10=0
 store.rent=0
 store.rent_rolls=0
 
-
 //Statistics
 store.total_upgrades=0
 store.highest_earnings=0
@@ -137,6 +139,7 @@ store.total_rolls=0
 store.doubles_rolled=0
 store.critical_rolls=0
 store.cards_played=0
+store.total_rent=0
 //store.challenges_completed=0
 
 //Bonus Codes
@@ -146,4 +149,6 @@ store.code_lotto=0
 store.code_cardshark=0
 store.code_joker=0
 store.code_shinyrocks=0
+store.code_rateplease=0
+store.code_happy=0
 }

@@ -32,6 +32,7 @@ ini_write_real( "save1", "ach_doubles", store.ach_doubles);
 ini_write_real( "save1", "ach_criticals", store.ach_criticals);
 ini_write_real( "save1", "ach_cards", store.ach_cards);
 ini_write_real( "save1", "ach_upgrades", store.ach_upgrades);
+ini_write_real( "save1", "ach_rent", store.ach_rent);
 
 //Perm 
 ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
@@ -77,7 +78,9 @@ ini_write_real( "save1", "ad_multiplier", store.ad_multiplier);
 ini_write_real( "save1", "cards", store.cards);
 ini_write_real( "save1", "card_cost", store.card_cost);
 ini_write_real( "save1", "card_max_lvl", store.card_max_lvl);
+ini_write_real( "save1", "card_min_lvl", store.card_min_lvl);
 ini_write_real( "save1", "card_lvl_cost", store.card_lvl_cost);
+ini_write_real( "save1", "card_lvl_min_cost", store.card_lvl_min_cost);
 ini_write_real( "save1", "lvl_cashps", store.lvl_cashps);
 ini_write_real( "save1", "cost_cashps", store.cost_cashps);
 
@@ -115,6 +118,7 @@ ini_write_real( "save1", "doubles_rolled", store.doubles_rolled);
 ini_write_real( "save1", "critical_rolls", store.critical_rolls);
 ini_write_real( "save1", "highest_earnings", store.highest_earnings);
 ini_write_real( "save1", "cards_played", store.cards_played);
+ini_write_real( "save1", "total_rent", store.total_rent);
 //ini_write_real( "save1", "challenges_completed", store.challenges_completed);
 //Bonus Codes
 ini_write_real( "save1", "code_payday", store.code_payday);
@@ -123,6 +127,8 @@ ini_write_real( "save1", "code_lotto", store.code_lotto);
 ini_write_real( "save1", "code_cardshark", store.code_cardshark);
 ini_write_real( "save1", "code_joker", store.code_joker);
 ini_write_real( "save1", "code_shinyrocks", store.code_shinyrocks);
+ini_write_real( "save1", "code_rateplease", store.code_rateplease);
+ini_write_real( "save1", "code_happy", store.code_happy);
 	
 	ini_close();
 

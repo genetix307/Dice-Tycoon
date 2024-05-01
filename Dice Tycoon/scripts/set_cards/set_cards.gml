@@ -7,9 +7,9 @@ store.cardC=choose("Restock","Spot Roll","Lump Sum","Double Up","Lotto","Slop")
 //store.cardB=choose("Restock","Spot Roll","Lump Sum","Double Up","Lotto","Slop","High Stakes")
 //store.cardC=choose("Restock","Spot Roll","Lump Sum","Double Up","Lotto","Slop","High Stakes")	
 //}
-store.cardA_lvl=max(1,irandom(store.card_max_lvl-1))
-store.cardB_lvl=max(1,irandom(store.card_max_lvl-1))
-store.cardC_lvl=max(1,irandom(store.card_max_lvl-1))
+store.cardA_lvl=max(store.card_min_lvl,round(random_range(store.card_min_lvl,store.card_max_lvl)))
+store.cardB_lvl=max(store.card_min_lvl,round(random_range(store.card_min_lvl,store.card_max_lvl)))
+store.cardC_lvl=max(store.card_min_lvl,round(random_range(store.card_min_lvl,store.card_max_lvl)))
 
 if store.cardA="Restock" {store.cardA_desc="Roll a 1\nGain "+string(1+(1*store.cardA_lvl))+" Cards on roll."}
 if store.cardB="Restock" {store.cardB_desc="Roll a 1\nGain "+string(1+(1*store.cardB_lvl))+" Cards on roll."}

@@ -29,6 +29,7 @@ store.ach_doubles=ini_read_real( "save1", "ach_doubles",store.ach_doubles);
 store.ach_criticals=ini_read_real( "save1", "ach_criticals",store.ach_criticals);
 store.ach_cards=ini_read_real( "save1", "ach_cards",store.ach_cards);
 store.ach_upgrades=ini_read_real( "save1", "ach_upgrades",store.ach_upgrades);
+store.ach_rent=ini_read_real( "save1", "ach_rent",store.ach_rent);
 
 //Perm 
 store.gems=ini_read_real( "save1", "gems",store.gems);
@@ -74,7 +75,9 @@ store.ad_multiplier=ini_read_real( "save1", "ad_multiplier",store.ad_multiplier)
 store.cards=ini_read_real( "save1", "cards",store.cards);
 store.card_cost=ini_read_real( "save1", "card_cost",store.card_cost);
 store.card_lvl_cost=ini_read_real( "save1", "card_lvl_cost",store.card_lvl_cost);
+store.card_lvl_min_cost=ini_read_real( "save1", "card_lvl_min_cost",store.card_lvl_min_cost);
 store.card_max_lvl=ini_read_real( "save1", "card_max_lvl",store.card_max_lvl);
+store.card_min_lvl=ini_read_real( "save1", "card_min_lvl",store.card_min_lvl);
 store.cost_cashps=ini_read_real( "save1", "cost_cashps",store.cost_cashps);
 store.lvl_cashps=ini_read_real( "save1", "lvl_cashps",store.lvl_cashps);
 
@@ -112,6 +115,7 @@ store.doubles_rolled=ini_read_real( "save1", "doubles_rolled",store.doubles_roll
 store.critical_rolls=ini_read_real( "save1", "critical_rolls",store.critical_rolls);
 store.total_upgrades=ini_read_real( "save1", "total_upgrades",store.total_upgrades);
 store.cards_played=ini_read_real( "save1", "cards_played",store.cards_played);
+store.total_rent=ini_read_real( "save1", "total_rent",store.total_rent);
 //store.challenges_completed=ini_read_real( "save1", "challenges_completed",store.challenges_completed);
 //Bonus Codes
 store.code_payday=ini_read_real( "save1", "code_payday",store.code_payday);
@@ -120,6 +124,8 @@ store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
 store.code_cardshark=ini_read_real( "save1", "code_cardshark",store.code_cardshark);
 store.code_joker=ini_read_real( "save1", "code_joker",store.code_joker);
 store.code_shinyrocks=ini_read_real( "save1", "code_shinyrocks",store.code_shinyrocks);
+store.code_rateplease=ini_read_real( "save1", "code_rateplease",store.code_rateplease);
+store.code_happy=ini_read_real( "save1", "code_happy",store.code_happy);
 
 	ini_close();
 }

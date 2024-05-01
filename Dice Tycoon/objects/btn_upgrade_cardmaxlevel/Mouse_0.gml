@@ -23,7 +23,7 @@ store.total_upgrades+=1
 }
 
 //Faster Buying
-if hold<=1 or hold %10==0 or hold>30 {
+if hold>30 {
 if store.score>=(store.card_max_lvl*15)*(store.card_max_lvl*100)+store.card_lvl_cost and maxxed = 0
 {
 store.score -= (store.card_max_lvl*15)*(store.card_max_lvl*100)+store.card_lvl_cost

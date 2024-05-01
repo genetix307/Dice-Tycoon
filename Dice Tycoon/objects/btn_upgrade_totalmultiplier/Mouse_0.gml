@@ -7,7 +7,7 @@ if store.score>=store.cost_totalmultiplier and maxxed = 0
 store.score -= store.cost_totalmultiplier
 store.total_multiplier+=1
 store.lvl_totalmultiplier+=1
-store.cost_totalmultiplier +=store.lvl_totalmultiplier*100
+store.cost_totalmultiplier +=store.lvl_totalmultiplier*250
 if store.lvl_totalmultiplier>70 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*10}
 if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*20}
 if store.lvl_totalmultiplier>150 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
@@ -26,7 +26,7 @@ if store.score>=store.cost_totalmultiplier*5 and maxxed = 0
 store.score -= store.cost_totalmultiplier*5
 store.total_multiplier+=5
 store.lvl_totalmultiplier+=5
-store.cost_totalmultiplier +=store.lvl_totalmultiplier*500
+store.cost_totalmultiplier +=store.lvl_totalmultiplier*1250
 if store.lvl_totalmultiplier>70 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
 if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*100}
 if store.lvl_totalmultiplier>150 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}

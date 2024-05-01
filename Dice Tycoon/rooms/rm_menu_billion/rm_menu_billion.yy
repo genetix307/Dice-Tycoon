@@ -17,8 +17,13 @@
         {"$GMRInstance":"","%Name":"inst_2398FD63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2398FD63","objectId":{"name":"show_menu_billion","path":"objects/show_menu_billion/show_menu_billion.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":80.0,},
         {"$GMRInstance":"","%Name":"inst_59A1FD46","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59A1FD46","objectId":{"name":"menu_monacle_guy","path":"objects/menu_monacle_guy/menu_monacle_guy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":356.0,"y":836.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":"_filter_greyscale","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.25,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
-        {"name":"g_Intensity","type":0,"value":"1",},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":"_filter_ripples","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.25,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
+        {"name":"g_RipplesPosition","type":0,"value":"0",},
+        {"name":"g_RipplesPosition","type":0,"value":"0",},
+        {"name":"g_RipplesSpeed","type":0,"value":"1",},
+        {"name":"g_RipplesWidth","type":0,"value":"64",},
+        {"name":"g_RipplesAmplitude","type":0,"value":"0.4",},
+        {"name":"g_RipplesRadius","type":0,"value":"0",},
       ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_main_backdrop_black","path":"sprites/spr_main_backdrop_black/spr_main_backdrop_black.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.25,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_menu_billion",
