@@ -1,8 +1,11 @@
-if store.total_rolls>=cost
+hold+=1
+
+if hold<=1 or hold %10==0 or hold>30 {
+	if store.total_upgrades>=cost
 {
-store.ach_rolls+=1
+store.ach_upgrades+=1
 store.gems+=reward
 instance_create_depth(x-4,y-4,depth-1000,effect_challenge)
 //instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Reward "+string(reward)+" Gems!"
 }
-
+}

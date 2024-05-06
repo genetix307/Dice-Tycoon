@@ -9,10 +9,10 @@ store.total_multiplier+=1
 store.lvl_totalmultiplier+=1
 store.cost_totalmultiplier +=store.lvl_totalmultiplier*250
 if store.lvl_totalmultiplier>70 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*10}
-if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*20}
+if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*30}
 if store.lvl_totalmultiplier>150 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
-if store.lvl_totalmultiplier>200 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
-if store.lvl_totalmultiplier>500 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
+if store.lvl_totalmultiplier>200 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*80}
+if store.lvl_totalmultiplier>500 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*100}
 if store.prestige>1 {store.cost_totalmultiplier+=store.prestige*5}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 store.total_upgrades+=1
@@ -28,10 +28,10 @@ store.total_multiplier+=5
 store.lvl_totalmultiplier+=5
 store.cost_totalmultiplier +=store.lvl_totalmultiplier*1250
 if store.lvl_totalmultiplier>70 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*50}
-if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*100}
+if store.lvl_totalmultiplier>100 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*150}
 if store.lvl_totalmultiplier>150 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}
-if store.lvl_totalmultiplier>200 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}
-if store.lvl_totalmultiplier>500 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*250}
+if store.lvl_totalmultiplier>200 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*400}
+if store.lvl_totalmultiplier>500 {store.cost_totalmultiplier +=store.lvl_totalmultiplier*500}
 if store.prestige>1 {store.cost_totalmultiplier+=store.prestige*25}
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 store.total_upgrades+=5

@@ -151,4 +151,7 @@ store.code_joker=0
 store.code_shinyrocks=0
 store.code_rateplease=0
 store.code_happy=0
+
+//Secrets
+store.secret_soul=0
 }

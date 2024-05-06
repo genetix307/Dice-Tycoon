@@ -127,5 +127,7 @@ store.code_shinyrocks=ini_read_real( "save1", "code_shinyrocks",store.code_shiny
 store.code_rateplease=ini_read_real( "save1", "code_rateplease",store.code_rateplease);
 store.code_happy=ini_read_real( "save1", "code_happy",store.code_happy);
 
+store.secret_soul=ini_read_real( "save1", "secret_soul",store.secret_soul);
+
 	ini_close();
 }

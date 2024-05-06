@@ -50,7 +50,7 @@ if hud.score_dice_A=5 and hud.score_dice_B=5 {hud.show_result[tmp_slot]="Double 
 if hud.score_dice_A=6 and hud.score_dice_B=6 {hud.show_result[tmp_slot]="Double 6s Multiplier x"+string(store.double6s_multiplier) tmp_slot+=1 }
 if tmp_crit=1 {hud.show_result[tmp_slot]="Critical Multiplier x"+string(store.critical_multiplier) tmp_slot+=1 }
 if store.prestige>1 {hud.show_result[tmp_slot]="Prestige x"+string(store.prestige) tmp_slot+=1 }
-if store.ad_multiplier>1 {hud.show_result[tmp_slot]="Ad Multiplier x"+string(store.ad_multiplier) tmp_slot+=1 }
+if store.ad_multiplier>1 {hud.show_result[tmp_slot]="Bonus Multiplier x"+string(store.ad_multiplier) tmp_slot+=1 }
 hud.show_result[tmp_slot]="Total Multiplier x"+string(store.total_multiplier) tmp_slot+=1
 hud.show_result[tmp_slot]="Roll Total: "+string(hud.score_add)
 

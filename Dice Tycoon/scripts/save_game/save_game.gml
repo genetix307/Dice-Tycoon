@@ -129,6 +129,9 @@ ini_write_real( "save1", "code_joker", store.code_joker);
 ini_write_real( "save1", "code_shinyrocks", store.code_shinyrocks);
 ini_write_real( "save1", "code_rateplease", store.code_rateplease);
 ini_write_real( "save1", "code_happy", store.code_happy);
+
+//Secrets
+ini_write_real( "save1", "secret_soul", store.secret_soul);
 	
 	ini_close();
 

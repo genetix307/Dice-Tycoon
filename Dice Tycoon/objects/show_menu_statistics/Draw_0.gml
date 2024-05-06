@@ -9,6 +9,7 @@ draw_text_color(118,230,"Critical Rolls: "+string(store.critical_rolls),c_white,
 draw_text_color(118,260,"Total Upgrades: "+string(store.total_upgrades),c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,290,"Cards Played: "+string(store.cards_played),c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,320,"Rent Collected: "+string(store.total_rent),c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,350,"Secrets Found: "+string(store.secret_soul)+"/1",c_white,c_white,c_silver,c_silver,1)
 //draw_text_color(118,350,"Challenges Completed: "+string(store.challenges_completed),c_white,c_white,c_silver,c_silver,1)
 
 

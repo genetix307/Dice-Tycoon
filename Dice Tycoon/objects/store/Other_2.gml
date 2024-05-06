@@ -3,7 +3,7 @@ randomize()
 //ads_init()
 audio_group_load(audio_sfx)
 audio_group_load(audio_bgm)
-version="version 1.13"
+version="version 1.14"
 devMode=0
 hold_dev=0
 //Set All perm vars
