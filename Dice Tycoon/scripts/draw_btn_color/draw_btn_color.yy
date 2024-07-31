@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_btn_color",
   "isCompatibility":false,
   "isDnD":false,

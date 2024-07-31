@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"random_banner",
   "isCompatibility":false,
   "isDnD":false,

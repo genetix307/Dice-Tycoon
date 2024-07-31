@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"open_privacy_policy",
   "isCompatibility":false,
   "isDnD":false,

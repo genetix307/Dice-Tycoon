@@ -1,9 +1,9 @@
 //System Init
 randomize()
-//ads_init()
+ads_init()
 audio_group_load(audio_sfx)
 audio_group_load(audio_bgm)
-version="version 1.14"
+version="version 1.16.2"
 devMode=0
 hold_dev=0
 //Set All perm vars

@@ -23,13 +23,13 @@ if store.cardA="Slop" {store.cardA_desc="Earn $"+string(10*store.cardA_lvl)+" on
 if store.cardB="Slop" {store.cardB_desc="Earn $"+string(10*store.cardB_lvl)+" on roll."}
 if store.cardC="Slop" {store.cardC_desc="Earn $"+string(10*store.cardC_lvl)+" on roll."}
 
-if store.cardA="Spot Roll" {store.cardA_desc="Roll a Six to earn $"+string(5000*(store.cardA_lvl*store.cardA_lvl))}
-if store.cardB="Spot Roll" {store.cardB_desc="Roll a Six to earn $"+string(5000*(store.cardB_lvl*store.cardB_lvl))}
-if store.cardC="Spot Roll" {store.cardC_desc="Roll a Six to earn $"+string(5000*(store.cardC_lvl*store.cardC_lvl))}
+if store.cardA="Spot Roll" {store.cardA_desc="Roll a Six to earn $"+string(10000*(store.cardA_lvl*store.cardA_lvl))}
+if store.cardB="Spot Roll" {store.cardB_desc="Roll a Six to earn $"+string(10000*(store.cardB_lvl*store.cardB_lvl))}
+if store.cardC="Spot Roll" {store.cardC_desc="Roll a Six to earn $"+string(10000*(store.cardC_lvl*store.cardC_lvl))}
 	
-if store.cardA="Double Up" {store.cardA_desc="Roll doubles to earn $"+string(7500*(store.cardA_lvl*store.cardA_lvl))}
-if store.cardB="Double Up" {store.cardB_desc="Roll doubles to earn $"+string(7500*(store.cardB_lvl*store.cardB_lvl))}
-if store.cardC="Double Up" {store.cardC_desc="Roll doubles to earn $"+string(7500*(store.cardC_lvl*store.cardC_lvl))}
+if store.cardA="Double Up" {store.cardA_desc="Roll doubles to earn $"+string(15000*(store.cardA_lvl*store.cardA_lvl))}
+if store.cardB="Double Up" {store.cardB_desc="Roll doubles to earn $"+string(15000*(store.cardB_lvl*store.cardB_lvl))}
+if store.cardC="Double Up" {store.cardC_desc="Roll doubles to earn $"+string(15000*(store.cardC_lvl*store.cardC_lvl))}
 	
 if store.cardA="Lotto" {store.cardA_desc="Earn random $1 to $"+string(2500*(store.cardA_lvl*store.cardA_lvl))+" on roll."}
 if store.cardB="Lotto" {store.cardB_desc="Earn random $1 to $"+string(2500*(store.cardB_lvl*store.cardB_lvl))+" on roll."}

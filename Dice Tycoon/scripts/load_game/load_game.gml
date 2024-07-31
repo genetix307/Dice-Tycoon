@@ -126,6 +126,7 @@ store.code_joker=ini_read_real( "save1", "code_joker",store.code_joker);
 store.code_shinyrocks=ini_read_real( "save1", "code_shinyrocks",store.code_shinyrocks);
 store.code_rateplease=ini_read_real( "save1", "code_rateplease",store.code_rateplease);
 store.code_happy=ini_read_real( "save1", "code_happy",store.code_happy);
+store.code_combo=ini_read_real( "save1", "code_combo",store.code_combo);
 
 store.secret_soul=ini_read_real( "save1", "secret_soul",store.secret_soul);
 

@@ -62,3 +62,11 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Reward "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "combo" and store.code_combo= 0
+{
+reward = 50
+store.code_combo = 1
+store.ad_multiplier += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Bonus Multiplier"
+save_game()
+}

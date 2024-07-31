@@ -4,5 +4,5 @@ greyed_out=0
 cost=0
 rent=0
 
-
+hold=0
 

@@ -7,7 +7,7 @@ if store.score>=store.cost_double4smultiplier and maxxed = 0
 store.score -= store.cost_double4smultiplier
 store.double4s_multiplier+=1
 store.lvl_double4smultiplier+=1
-store.cost_double4smultiplier +=store.lvl_double4smultiplier*200
+store.cost_double4smultiplier +=store.lvl_double4smultiplier*2000
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 store.total_upgrades+=1
 }
@@ -20,7 +20,7 @@ if store.score>=store.cost_double4smultiplier*5 and maxxed = 0
 store.score -= store.cost_double4smultiplier*5
 store.double4s_multiplier+=5
 store.lvl_double4smultiplier+=5
-store.cost_double4smultiplier +=store.lvl_double4smultiplier*1000
+store.cost_double4smultiplier +=store.lvl_double4smultiplier*10000
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 store.total_upgrades+=5
 }

@@ -1,5 +1,5 @@
 //store.score+=10000000
-//store.gems+=10
-//store.append_score=100000000000000
+store.gems+=10000
+store.append_score=1000000000
 
 

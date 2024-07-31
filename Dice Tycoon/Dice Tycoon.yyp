@@ -14,6 +14,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"AdMob","folderPath":"folders/AdMob.yy","name":"AdMob","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/AdMob/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Mediations","folderPath":"folders/AdMob/Extensions/Mediations.yy","name":"Mediations","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Effects","folderPath":"folders/Objects/Effects.yy","name":"Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,11 +53,16 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Dice Tycoon",
   "resources":[
     {"id":{"name":"AdMob","path":"extensions/AdMob/AdMob.yy",},},
+    {"id":{"name":"AdMobAppLovin","path":"extensions/AdMobAppLovin/AdMobAppLovin.yy",},},
+    {"id":{"name":"AdMobIronSource","path":"extensions/AdMobIronSource/AdMobIronSource.yy",},},
+    {"id":{"name":"AdMobMeta","path":"extensions/AdMobMeta/AdMobMeta.yy",},},
+    {"id":{"name":"AdMobPangle","path":"extensions/AdMobPangle/AdMobPangle.yy",},},
+    {"id":{"name":"AdMobUnityAds","path":"extensions/AdMobUnityAds/AdMobUnityAds.yy",},},
     {"id":{"name":"fnt_hud_small","path":"fonts/fnt_hud_small/fnt_hud_small.yy",},},
     {"id":{"name":"font_buttons","path":"fonts/font_buttons/font_buttons.yy",},},
     {"id":{"name":"font_large_hud","path":"fonts/font_large_hud/font_large_hud.yy",},},
@@ -64,6 +70,7 @@
     {"id":{"name":"font_score","path":"fonts/font_score/font_score.yy",},},
     {"id":{"name":"font_stats_bigger","path":"fonts/font_stats_bigger/font_stats_bigger.yy",},},
     {"id":{"name":"font_stats","path":"fonts/font_stats/font_stats.yy",},},
+    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"btn_abandon_run","path":"objects/btn_abandon_run/btn_abandon_run.yy",},},
     {"id":{"name":"btn_achievement_cards","path":"objects/btn_achievement_cards/btn_achievement_cards.yy",},},
     {"id":{"name":"btn_achievement_criticals","path":"objects/btn_achievement_criticals/btn_achievement_criticals.yy",},},
@@ -288,6 +295,6 @@
   ],
   "templateType":null,
   "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"qoi","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }

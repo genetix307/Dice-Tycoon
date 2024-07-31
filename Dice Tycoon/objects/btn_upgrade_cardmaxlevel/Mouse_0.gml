@@ -6,7 +6,7 @@ if store.score>=(store.card_max_lvl*15)*(store.card_max_lvl*100)+store.card_lvl_
 {
 store.score -= (store.card_max_lvl*15)*(store.card_max_lvl*100)+store.card_lvl_cost
 store.card_max_lvl+=1
-store.card_lvl_cost+=250*store.card_max_lvl
+store.card_lvl_cost+=500*store.card_max_lvl
 if store.card_max_lvl>20 {store.card_lvl_cost+=1500}
 if store.card_max_lvl>30 {store.card_lvl_cost+=5000}
 if store.card_max_lvl>40 {store.card_lvl_cost+=10000}
@@ -28,7 +28,7 @@ if store.score>=(store.card_max_lvl*15)*(store.card_max_lvl*100)+store.card_lvl_
 {
 store.score -= (store.card_max_lvl*15)*(store.card_max_lvl*100)+store.card_lvl_cost
 store.card_max_lvl+=1
-store.card_lvl_cost+=250*store.card_max_lvl
+store.card_lvl_cost+=2500*store.card_max_lvl
 if store.card_max_lvl>20 {store.card_lvl_cost+=1500}
 if store.card_max_lvl>30 {store.card_lvl_cost+=5000}
 if store.card_max_lvl>40 {store.card_lvl_cost+=10000}

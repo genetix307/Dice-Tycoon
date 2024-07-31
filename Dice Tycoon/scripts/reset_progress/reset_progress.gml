@@ -63,34 +63,34 @@ store.append_score=0
 
 //Perm Upgrades & Stats
 store.total_multiplier=1
-store.cost_totalmultiplier=10
+store.cost_totalmultiplier=500
 store.lvl_totalmultiplier=1
 store.doubles_multiplier=1
-store.cost_doublesmultiplier=10
+store.cost_doublesmultiplier=500
 store.lvl_doublesmultiplier=1
 store.double1s_multiplier=1
-store.cost_double1smultiplier=10
+store.cost_double1smultiplier=500
 store.lvl_double1smultiplier=1
 store.double2s_multiplier=1
-store.cost_double2smultiplier=10
+store.cost_double2smultiplier=500
 store.lvl_double2smultiplier=1
 store.double3s_multiplier=1
-store.cost_double3smultiplier=10
+store.cost_double3smultiplier=500
 store.lvl_double3smultiplier=1
 store.double4s_multiplier=1
-store.cost_double4smultiplier=10
+store.cost_double4smultiplier=500
 store.lvl_double4smultiplier=1
 store.double5s_multiplier=1
-store.cost_double5smultiplier=10
+store.cost_double5smultiplier=500
 store.lvl_double5smultiplier=1
 store.double6s_multiplier=1
-store.cost_double6smultiplier=10
+store.cost_double6smultiplier=500
 store.lvl_double6smultiplier=1
 store.critical_chance=0
-store.cost_critical_chance=10
+store.cost_critical_chance=500
 store.lvl_critical_chance=1
 store.critical_multiplier=2
-store.cost_critical_multiplier=10
+store.cost_critical_multiplier=500
 store.lvl_critical_multiplier=1
 store.cost_autoroll=1000
 store.lvl_autoroll=1
@@ -103,7 +103,7 @@ store.card_min_lvl=1
 store.card_lvl_cost=0
 store.card_lvl_min_cost=0
 store.lvl_cashps=0
-store.cost_cashps=100
+store.cost_cashps=500
 
 //Collection
 store.collection_motorcycle=0
@@ -151,6 +151,7 @@ store.code_joker=0
 store.code_shinyrocks=0
 store.code_rateplease=0
 store.code_happy=0
+store.code_combo=0
 
 //Secrets
 store.secret_soul=0
